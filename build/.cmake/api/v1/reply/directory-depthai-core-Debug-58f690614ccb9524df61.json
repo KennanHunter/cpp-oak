@@ -1,0 +1,202 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"depthai-core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 644,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 655,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 657,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 659,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 661,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 672,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"depthai-core/libdepthai-core.a"
+			],
+			"targetId" : "depthai-core::@72ee8ba4e708227131c2",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"depthai-core/libdepthai-resources.a"
+			],
+			"targetId" : "depthai-resources::@72ee8ba4e708227131c2",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "depthai-core/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "depthai-core/shared/depthai-shared/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/depthai-shared/3rdparty",
+			"paths" : 
+			[
+				{
+					"from" : "depthai-core/shared/depthai-shared/3rdparty",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "depthai-core/shared/depthai-bootloader-shared/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/depthai/dependencies",
+			"paths" : 
+			[
+				{
+					"from" : "/home/kennan/.hunter/_Base/cb0ea1f/2229864/4124719/Install",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/depthai",
+			"exportName" : "depthaiTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "depthai-core::@72ee8ba4e708227131c2",
+					"index" : 29
+				},
+				{
+					"id" : "depthai-resources::@72ee8ba4e708227131c2",
+					"index" : 30
+				},
+				{
+					"id" : "cmrc-base::@72ee8ba4e708227131c2",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"depthai-core/CMakeFiles/Export/5fe11f5f0f62087dbaeeae727850cf5a/depthaiTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/depthai",
+			"paths" : 
+			[
+				"build/depthai-core/_install/depthaiConfig.cmake",
+				"build/depthai-core/depthaiConfigVersion.cmake",
+				"build/depthai-core/depthaiDependencies.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "depthai-core",
+		"source" : "depthai-core"
+	}
+}

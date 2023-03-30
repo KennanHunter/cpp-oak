@@ -1,0 +1,13 @@
+
+-D'DEPTHAI_TARGET_CORE'
+-D'JSON_USE_IMPLICIT_CONVERSIONS=1'
+
+    
+-I'/home/kennan/programming/cpp-oak/depthai-core/include'
+-I'/home/kennan/programming/cpp-oak/depthai-core/shared/depthai-shared/include'
+-I'/home/kennan/programming/cpp-oak/depthai-core/shared/depthai-bootloader-shared/include'
+-I'/home/kennan/programming/cpp-oak/depthai-core/shared/depthai-shared/3rdparty'
+-I'/home/kennan/.hunter/_Base/cb0ea1f/2229864/4124719/Install/include'
+-I'/home/kennan/.hunter/_Base/cb0ea1f/2229864/4124719/Install/include'
+-I'/home/kennan/.hunter/_Base/cb0ea1f/2229864/4124719/Install/include'
+-I'/home/kennan/.hunter/_Base/cb0ea1f/2229864/4124719/Install/include'
